@@ -4,83 +4,75 @@
 
 ---
 
-> **Warning / Disclaimer:**  
-> This is an **unofficial** userscript created by an enthusiast with **no affiliation** to Character.AI or its development team.  
-> Use this tool **at your own risk**. The author is **not responsible** for any token leaks, account issues, or other problems resulting from misuse.  
+> **Disclaimer:**  
+> This is an unofficial userscript developed by an independent enthusiast and is not affiliated with the Character.AI team.  
+> Use this software at your own risk. The author is not responsible for any consequences, including token leaks or account issues.  
 >  
-> The token capture method currently works by intercepting network requests, but Character.AI may change their system at any time, breaking this script.  
-> This project is still in early stages and will be updated as needed to keep pace with website changes.  
+> The method used to capture tokens relies on intercepting network requests and may break if Character.AI updates their system.  
+> This project is in active development to adapt to such changes.  
 >  
-> By using this, you accept all risks involved.
+> By using this tool, you accept these terms.
 
 ---
 
-## About
+## Overview
 
-Character.AI doesn’t provide an official API, so grabbing your authentication token for unofficial tools is tricky — especially on mobile. This userscript and guide simplify token capture when you activate Voice Enabled Mode inside chats.
+Obtaining authentication tokens on mobile devices can be challenging due to browser restrictions and lack of official API support. This repository provides a userscript and detailed instructions for capturing your Character.AI token using mobile browsers that support user scripts and extensions.
 
 ---
 
-## How to Use (Mobile)
+## Installation and Usage (Mobile)
 
-### 1. Install Kiwi Browser
+### Step 1: Install Kiwi Browser
 
-- Download [**Kiwi Browser**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser), a Chromium-based mobile browser that supports user scripts and extensions.
+Download and install Kiwi Browser, a Chromium-based browser for Android with support for user scripts and extensions:
 
-### 2. Install Userscript Manager Extension
+- [Kiwi Browser on Google Play Store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)
 
-- In Kiwi Browser, install [**ViolentMonkey**](https://violentmonkey.github.io/) or [**Tampermonkey**](https://www.tampermonkey.net/).
+### Step 2: Install Userscript Manager Extension
 
-### 3. Install the Token Capture Userscript
+Within Kiwi Browser, install either ViolentMonkey or Tampermonkey:
 
-- Install the userscript from [GreasyFork](https://greasyfork.org/en/scripts/545327-character-token) via ViolentMonkey or Tampermonkey in Kiwi.
+- [ViolentMonkey](https://violentmonkey.github.io/)  
+- [Tampermonkey](https://www.tampermonkey.net/)
 
-### 4. Capture Your Token
+### Step 3: Install the Token Capture Userscript
+
+Install the userscript from GreasyFork using your userscript manager:
+
+- [Character Token Capture Script on GreasyFork](https://greasyfork.org/en/scripts/545327-character-token)
+
+### Step 4: Capture Your Authentication Token
 
 1. Open [Character.AI](https://character.ai) and log in on your mobile browser.  
 2. Start a chat with any AI character.  
-3. Tap the **"Activate Voice Enabled Mode"** button next to the chat's "..." settings menu.  
-4. The token modal will appear — copy your token.  
-5. Reload the page to capture again if needed.
+3. Tap the **"Activate Voice Enabled Mode"** button located beside the chat’s settings ("...") menu.  
+4. A modal window will display your authentication token. Copy the token for your use.  
+5. To capture the token again, reload the page and repeat the process.
 
 ---
 
-## Usage & Related Projects
+## Related Projects
 
-You can use the captured token with popular unofficial Character.AI libraries such as:
+Use your captured token with popular unofficial Character.AI integration libraries:
 
-- [node_characterai by realcoloride](https://github.com/realcoloride/node_characterai)  
-- [PyCharacterAI by Xtr4F](https://github.com/Xtr4F/PyCharacterAI)
+- [node_characterai](https://github.com/realcoloride/node_characterai) by realcoloride  
+- [PyCharacterAI](https://github.com/Xtr4F/PyCharacterAI) by Xtr4F
 
-Check these repos for integration and bot-building examples.
-
----
-
-## Screenshots & Examples
-
-<!--  
-Add mobile screenshots or GIFs demonstrating:  
-- Installing Kiwi Browser and ViolentMonkey/Tampermonkey  
-- Activating Voice Enabled Mode  
-- Token modal popup
-
-Example markdown image syntax:  
-![Mobile Example](./images/mobile-example.png)  
--->
+Refer to these repositories for guidance on integration and bot development.
 
 ---
 
-## Contributing
+## Contribution
 
-Open to improvements, bug reports, feature requests, and external contributions.  
-Feel free to open issues or pull requests — let’s improve this tool together.
+Contributions, bug reports, and feature requests are welcome. Please submit issues or pull requests to improve this project.
 
 ---
 
 ## License
 
-For educational and research purposes only. No warranties provided.
+This project is provided for educational and research purposes only. No warranties or guarantees are implied.
 
 ---
 
-*Created by Golden4484 — Use responsibly and don’t be that guy.*
+Created by Golden4484
