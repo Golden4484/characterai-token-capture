@@ -1,4 +1,8 @@
-# Character.AI Token Capture & Integration Tools
+# Character.AI Token Capture & Integration Tools (Desktop)
+
+[Mobile Page](./README_MOBILE.md)
+
+---
 
 > **Warning / Disclaimer:**  
 > This is an **unofficial** userscript created by an enthusiast with **no affiliation** to Character.AI or its development team.  
@@ -17,29 +21,23 @@ Character.AI doesn't offer an official API, making it a pain to get your authent
 
 ---
 
-## How to Use
+## How to Use (Desktop)
 
-### Mobile (Recommended Browser: Kiwi Browser)
+### 1. Install ViolentMonkey Extension
 
-1. Install [**Kiwi Browser**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) or any mobile browser that supports user scripts and extensions like ViolentMonkey or Tampermonkey.  
-2. Install [**ViolentMonkey**](https://violentmonkey.github.io/) or [**Tampermonkey**](https://www.tampermonkey.net/) extension in the browser.  
-3. Open [Character.AI](https://character.ai) and log in.  
-4. Start a chat with any AI character.  
-5. Tap the **"Activate Voice Enabled Mode"** button next to the chat's "..." settings menu.  
-6. A modal will pop up displaying your token — copy it.  
-7. To capture again, reload the page and repeat.
+- Install [**ViolentMonkey**](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) extension for Chrome or Edge.
 
----
+### 2. Install the Token Capture Userscript
 
-### Desktop
+- Get the latest version from [GreasyFork](https://greasyfork.org/en/scripts/545327-character-token) and install it via ViolentMonkey.
 
-1. Install [**ViolentMonkey** extension for Chrome or Edge](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag).  
-2. Install the userscript from [GreasyFork](https://greasyfork.org/en/scripts/545327-character-token).  
-3. Open [Character.AI](https://character.ai) and log in.  
-4. Start a chat with any AI character.  
-5. Click the **"Activate Voice Enabled Mode"** button next to the chat's "..." settings.  
-6. The token modal will appear — copy your token.  
-7. Reload the page to capture again if needed.
+### 3. Capture Your Token
+
+1. Open [Character.AI](https://character.ai) and log in.  
+2. Start a chat with any AI character.  
+3. Click the **"Activate Voice Enabled Mode"** button next to the chat's "..." settings menu.  
+4. A modal will pop up displaying your token — copy it.  
+5. To capture again, reload the page and repeat.
 
 ---
 
@@ -58,7 +56,7 @@ Explore those repos for integration examples and bot development.
 
 <!--  
 Add screenshots or GIFs here demonstrating:  
-- Installing ViolentMonkey/Tampermonkey  
+- Installing ViolentMonkey  
 - Activating Voice Enabled Mode  
 - Token modal popup
 
