@@ -4,79 +4,68 @@
 
 ---
 
-> **Warning / Disclaimer:**  
-> This is an **unofficial** userscript created by an enthusiast with **no affiliation** to Character.AI or its development team.  
-> Use this tool **at your own risk**. The author is **not responsible** for any token leaks, account issues, or other problems resulting from misuse.  
+> **Disclaimer:**  
+> This is an unofficial userscript developed by an independent enthusiast and is not affiliated with the Character.AI team.  
+> Use this software at your own risk. The author is not responsible for any consequences, including token leaks or account issues.  
 >  
-> The token capture method currently works by intercepting network requests, but Character.AI may change their system at any time, breaking this script.  
-> This project is still in early stages and will be updated as needed to keep pace with website changes.  
+> The method used to capture tokens relies on intercepting network requests and may break if Character.AI updates their system.  
+> This project is in active development to adapt to such changes.  
 >  
-> By using this, you accept all risks involved.
+> By using this tool, you accept these terms.
 
 ---
 
-## About
+## Overview
 
-Character.AI doesn't offer an official API, making it a pain to get your authentication token for integrations and unofficial tools. This repository and the userscript here aim to make that process way easier by capturing the token automatically when you activate Voice Enabled Mode in chats.
+Character.AI currently does not provide a public API, which complicates obtaining authentication tokens required for unofficial integrations and tools. This repository offers a userscript solution that simplifies token capture by intercepting network requests triggered when activating the Voice Enabled Mode in chats.
 
 ---
 
-## How to Use (Desktop)
+## Installation and Usage (Desktop)
 
-### 1. Install ViolentMonkey Extension
+### Step 1: Install ViolentMonkey Extension
 
-- Install [**ViolentMonkey**](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) extension for Chrome or Edge.
+Install the ViolentMonkey browser extension for Chrome or Edge:
 
-### 2. Install the Token Capture Userscript
+- [ViolentMonkey on Chrome Web Store](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 
-- Get the latest version from [GreasyFork](https://greasyfork.org/en/scripts/545327-character-token) and install it via ViolentMonkey.
+### Step 2: Install the Token Capture Userscript
 
-### 3. Capture Your Token
+Install the userscript via ViolentMonkey by visiting:
 
-1. Open [Character.AI](https://character.ai) and log in.  
+- [Character Token Capture Script on GreasyFork](https://greasyfork.org/en/scripts/545327-character-token)
+
+### Step 3: Capture Your Authentication Token
+
+1. Open [Character.AI](https://character.ai) and log in to your account.  
 2. Start a chat with any AI character.  
-3. Click the **"Activate Voice Enabled Mode"** button next to the chat's "..." settings menu.  
-4. A modal will pop up displaying your token — copy it.  
-5. To capture again, reload the page and repeat.
+3. Click the **"Activate Voice Enabled Mode"** button located beside the chat’s settings ("...") menu.  
+4. A modal window will appear displaying your authentication token. Copy this token for use in integrations or tools.  
+5. To capture the token again, refresh the page and repeat the process.
 
 ---
 
-## Usage & Related Projects
+## Related Projects
 
-Use your captured token with popular unofficial Character.AI libraries like:
+Use the captured token with the following popular unofficial Character.AI integration libraries:
 
-- [node_characterai by realcoloride](https://github.com/realcoloride/node_characterai)  
-- [PyCharacterAI by Xtr4F](https://github.com/Xtr4F/PyCharacterAI)
+- [node_characterai](https://github.com/realcoloride/node_characterai) by realcoloride  
+- [PyCharacterAI](https://github.com/Xtr4F/PyCharacterAI) by Xtr4F
 
-Explore those repos for integration examples and bot development.
-
----
-
-## Screenshots & Examples
-
-<!--  
-Add screenshots or GIFs here demonstrating:  
-- Installing ViolentMonkey  
-- Activating Voice Enabled Mode  
-- Token modal popup
-
-Markdown image syntax example:  
-![Example](./images/example.png)  
--->
+Refer to these repositories for guidance on how to integrate and build applications using your token.
 
 ---
 
-## Contributing
+## Contribution
 
-This project is open to improvements, bug reports, feature requests, and external contributions.  
-Feel free to open issues or pull requests — let’s make this better together.
+Contributions, bug reports, and feature requests are welcome. Please submit issues or pull requests to help improve this project.
 
 ---
 
 ## License
 
-For educational and research purposes only. No warranties provided.
+This project is provided for educational and research purposes only. No warranties or guarantees are implied.
 
 ---
 
-*Created by Golden4484 — Use responsibly and don’t be that guy.*
+Created by Golden4484
